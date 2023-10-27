@@ -1,0 +1,54 @@
+--Insert values in TABLE_DRINK_PRODUCT Table
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000001','Budlight','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000002','coke','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000003','diet_coke','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000004','fanta','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000005','mountain dew','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000006','pepsi','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000007','lemonade','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000008','diet_lemonade','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000009','red_bull','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000010','tequila','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000011','milkshakes','non-alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000012','red wine','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000013','ginger_beer','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000014','Irish_coffee','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000015','bloody_mary','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000016','rum','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000017','brandy','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000018','vodka_martini','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000019','mimosa','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000020','stellarosa','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000021','pinot_noir','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000022','Iced_tea','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000023','organge_juice','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000024','mango_juice','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000025','jagermeister','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000026','sherry','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000027','jack_Daniels','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000028','lassi','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000029','sprite','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000030','cocoa','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000031','mango_mule','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000032','cranberry_spitzer','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000033','magic_apple','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000034','watermelon_margarita','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000035','rose_fizz','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000036','wildcat_cooler','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000037','budweiser','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000038','shandy','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000039','star_northern','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000040','lager','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000041','blue_moon','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000042','carlsberg','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000043','corona_extra','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000044','godfather','alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000045','cherry_sar','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000046','jolt_cola','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000047','dr_pepper','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000048','frappuccino','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000049','cappuccino','non_alcoholic');
+INSERT INTO FALL22_004_6_DRINK_TYPE(DM_NUM, D_Name, D_Type) VALUES ('1000050','coffee_black','non_alcoholic');
+
+
+
