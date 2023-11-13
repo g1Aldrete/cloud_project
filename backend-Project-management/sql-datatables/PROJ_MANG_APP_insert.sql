@@ -1,0 +1,8 @@
+start PROJ_MANG_APP_Insert_User.sql
+start PROJ_MANG_APP_Insert_Proj.sql
+start PROJ_MANG_APP_Insert_Proj_Staff.sql
+start PROJ_MANG_APP_Insert_Task.sql
+start PROJ_MANG_APP_Insert_Note.sql
+start PROJ_MANG_APP_Insert_Mang_Staff.sql
+start PROJ_MANG_APP_Insert_Group.sql
+start PROJ_MANG_APP_Insert_Role.sql
