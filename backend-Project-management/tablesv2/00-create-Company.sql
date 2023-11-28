@@ -10,12 +10,14 @@ USE Company;
 
 -- create table for EMPLOYEE
 CREATE TABLE IF NOT EXISTS EMPLOYEE ( 
+    Ssn CHAR(9) NOT NULL,
     Fname VARCHAR(15) NOT NULL,
     Minit CHAR,
     Lname VARCHAR(15) NOT NULL,
-    Ssn CHAR(9) NOT NULL,
     Bdate DATE,
     Address VARCHAR(30),
+    email VARCHAR(50) NOT NULL,
+    Cphone VARCHAR(13), 
     Sex CHAR,
     Super_ssn CHAR(9),
     Dno INT NOT NULL,

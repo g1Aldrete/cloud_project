@@ -21,7 +21,7 @@ app.get('/',(req,res)=>{
 });
 
 app.post('/',(req,res)=>{
-    //const data = {U_ID:"000000100", U_First: "Peter", U_Middle:"M", U_Last:"Moore", B_date:"1978-02-28", U_gender:"M", U_Bio:" ", U_address: "Houston Texas", U_email:"PMM@gmail.com", U_cell_phone:"8173334567"}
+   // const data = {U_ID:"000011100", U_First: "Peter", U_Middle:"M", U_Last:"Moore", B_date:"1978-02-28", U_gender:"M", U_Bio:" ", U_address: "Houston Texas", U_email:"PMM@gmail.com", U_cell_phone:"8173334567"};
     const data = req.body;
     conn.query("INSERT INTO PROJ_MANG_APP_USER SET ?", data, (err,result)=>{
         if(err){
