@@ -10,7 +10,7 @@ conn.connect((err)=>{
     if(err){
         console.log("connection not successful");
     }else{
-        console.log("connection successful"); 
+        console.log("connection successful to MySQL"); 
     }
 });
 
