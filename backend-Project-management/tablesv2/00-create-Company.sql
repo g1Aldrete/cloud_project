@@ -54,6 +54,21 @@ CREATE TABLE IF NOT EXISTS PROJECT (
     FOREIGN KEY(Dnum) REFERENCES DEPARTMENT(Dnumber)
 );
 
+-- create table for Task
+CREATE TABLE IF NOT EXISTS TASK (
+    Tname VARCHAR(15) NOT NULL,
+    Tnumber INT NOT NULL,
+    Tstatus INT (1) NOT NULL,
+    Deadline DATE,
+    Dnumber INT,
+    Tstart_date DATE,
+    Ssn INT NOT NULL,
+    PRIMARY KEY(Tnumber),
+    UNIQUE(Tnumber),
+    FOREIGN KEY(Ssn) REFERENCES EMPLOYEE(Ssn),
+    FOREIGN KEY(Dnumber) REFERENCES DEPARTMENT(Dnumber)
+);
+
 -- create table for WORK_ON
 CREATE TABLE IF NOT EXISTS WORKS_ON (
     Essn CHAR(9) NOT NULL,
