@@ -30,8 +30,40 @@ app.get('/projects',(req,res)=>{
         }
     });
 });
-//retrieve the information of an employee given ID
-app.get('/profile/:Ssn', (req, res) => {
+//select all the information from the Task table
+app.get('/tasks',(req,res)=>{ 
+    let sql = "SELECT * FROM TASK";
+    conn.query(sql, (err,result)=>{
+        if(err){
+            throw err;
+        }else{
+            res.send(result);
+        }
+    });
+});
+
+//retrieve the tasks of an employee given ID
+app.get('/tasks/:Ssn', (req, res) => {
+    // Receive employeeID in the request parameters
+    let employeeID = req.params.Ssn;
+    // Check if employeeID is provided
+    if (!employeeID) {
+        res.status(400).send('Employee ID is required');
+        return;
+    }
+    let sql = `SELECT * FROM TASK WHERE Ssn = '${employeeID}'`;
+    console.log(sql);
+    conn.query(sql, (err, result) => {  
+        if (err) {
+            throw err;
+        } else {
+            res.send(result);
+        }
+    });
+});
+
+//retrieve all information of an employee given ID
+app.get('/employees/:Ssn', (req, res) => {
     // Receive employeeID in the request parameters
     let employeeID = req.params.Ssn;
     // Check if employeeID is provided
@@ -49,6 +81,47 @@ app.get('/profile/:Ssn', (req, res) => {
         }
     });
 });
+
+//retrieve the profile information of an employee given ID
+app.get('/profile/:Ssn', (req, res) => {
+    // Receive employeeID in the request parameters
+    let employeeID = req.params.Ssn;
+    // Check if employeeID is provided
+    if (!employeeID) {
+        res.status(400).send('Employee ID is required');
+        return;
+    }
+    let sql = `SELECT Fname, Lname, email FROM EMPLOYEE WHERE Ssn = '${employeeID}'`;
+    console.log(sql);
+    conn.query(sql, (err, result) => {  
+        if (err) {
+            throw err;
+        } else {
+            res.send(result);
+        }
+    });
+});
+
+//retrieve the tasks of an employee given ID
+app.get('/tasks/:Ssn', (req, res) => {
+    // Receive employeeID in the request parameters
+    let employeeID = req.params.Ssn;
+    // Check if employeeID is provided
+    if (!employeeID) {
+        res.status(400).send('Employee ID is required');
+        return;
+    }
+    let sql = `SELECT * FROM TASK WHERE Ssn = '${employeeID}'`;
+    console.log(sql);
+    conn.query(sql, (err, result) => {  
+        if (err) {
+            throw err;
+        } else {
+            res.send(result);
+        }
+    });
+});
+
 //retrieve the PROJECTs information given an employee ID
 app.get('/projects/:Ssn', (req, res) => {
     // Receive employerID in the request parameters
