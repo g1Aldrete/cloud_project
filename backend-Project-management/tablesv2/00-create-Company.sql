@@ -17,7 +17,6 @@ CREATE TABLE IF NOT EXISTS EMPLOYEE (
     Bdate DATE,
     Address VARCHAR(30),
     email VARCHAR(50) NOT NULL,
-    Cphone VARCHAR(13), 
     Sex CHAR,
     Super_ssn CHAR(9),
     Dno INT NOT NULL,
@@ -45,7 +44,7 @@ CREATE TABLE IF NOT EXISTS DEP_LOCATIONS (
 -- create table for PROJECT
 CREATE TABLE IF NOT EXISTS PROJECT (
     Pname VARCHAR(15) NOT NULL,
-    Pnumber INT NOT NULL,
+    Pnumber INT NOT NULL AUTO_INCREMENT,
     Plocation VARCHAR(15),
     Pstart_date DATE,
     Dnum INT NOT NULL,
@@ -57,16 +56,18 @@ CREATE TABLE IF NOT EXISTS PROJECT (
 -- create table for Task
 CREATE TABLE IF NOT EXISTS TASK (
     Tname VARCHAR(15) NOT NULL,
-    Tnumber INT NOT NULL,
+    Tnumber INT NOT NULL AUTO_INCREMENT,
     Tstatus INT (1) NOT NULL,
     Deadline DATE,
     Dnumber INT,
+    Pnumber INT,
     Tstart_date DATE,
     Ssn INT NOT NULL,
     PRIMARY KEY(Tnumber),
     UNIQUE(Tnumber),
     FOREIGN KEY(Ssn) REFERENCES EMPLOYEE(Ssn),
-    FOREIGN KEY(Dnumber) REFERENCES DEPARTMENT(Dnumber)
+    FOREIGN KEY(Dnumber) REFERENCES DEPARTMENT(Dnumber),
+    FOREIGN KEY(Pnumber) REFERENCES PROJECT(Pnumber)
 );
 
 -- create table for WORK_ON
