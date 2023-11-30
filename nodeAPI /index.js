@@ -19,7 +19,7 @@ app.get('/employees',(req,res)=>{
         }
     });
 });
-//select all the information from the Employee table
+//select all the information from the Project table
 app.get('/projects',(req,res)=>{ 
     let sql = "SELECT * FROM PROJECT";
     conn.query(sql, (err,result)=>{
